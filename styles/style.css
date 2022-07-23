@@ -87,14 +87,15 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     margin-right: 10px;
     gap:30px
-    
-
-
 }
 .player img{
 
     width: 200px;
     height: 150px;
+}
+.player-icon{
+    wight:20px;
+    height: 20px;
 }
 footer{
     padding: 10px;
