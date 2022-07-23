@@ -1,14 +1,17 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
 /*bannar*/
-section{
-    height: 400px;
-    padding-bottom: 150px;
-    margin: 100px 100px 30px 150px;
-}
+
 .banner{
     display: flex;
     border-radius: 20px;
     background-color: blueviolet;
     background-repeat: no-repeat;
+    height: 400px;
+    padding-bottom: 150px;
+    margin: 100px 100px 30px 150px;
 }
 .half-width{
     width:40%;
@@ -37,26 +40,65 @@ h1{
     font-weight: 700;
 }
 
-
+.manu-with-players{
+    display: flex;
+    justify-content: center;
+    
+}
 /*manu box*/
 .manu{
-    display: block;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    margin-right: 30px;
+}
+.upcomming-button{
+    text-decoration: none;
+    background:white;
+    padding: 10px 10px;
+    border-radius: 30px;
     color: black;
+    font-weight: 700;
+     
+}
+.allgroup-button{
+    text-decoration: none;
+    background:white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 700;
+}
+.blog-button{
+    text-decoration: none;
+    background: red;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
 }
 
 /*players style*/
 .players{
     display: grid;
-    gap: 15px;
     grid-template-columns: repeat(3, 1fr);
+    margin-right: 10px;
+    gap:30px
+    
+
+
 }
 .player img{
 
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 }
 footer{
-    background-color: black;
+    padding: 10px;
+    background-color: aquamarine;
 }
 #Goal{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -67,5 +109,5 @@ footer{
 }
 .nav a{
     font-size:20px;
-    text-align: justify;
+    align-items: center;
 }
