@@ -100,7 +100,7 @@ h1{
     height: 80px;
 }
 
-}
+
 footer{
     padding: 10px;
     background-color: aquamarine;
@@ -117,3 +117,28 @@ footer{
     align-items: center;
     text-justify: auto;
 }
+/*media queries*/
+@media only screen and(max-width:688) {
+    .banner{
+        width: 100%;
+
+
+    }
+
+    .manu-with-players{
+        width:100%;
+    }
+   
+    .players{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player1{
+        flex-direction: column;
+    }
+    .footer{
+        width:100%
+    }
+}
+
+   
